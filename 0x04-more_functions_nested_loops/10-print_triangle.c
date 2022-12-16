@@ -2,7 +2,6 @@
 
 /**
  * print_triangle - entry point
- * owned by Bwave/Bright Daniel
  * Description: Prints diagonals
  *@size: size of the triangle
  * Return: void
@@ -29,6 +28,6 @@ void print_triangle(int size)
 				_putchar('#');
 			}
 			_putchar('\n');
-		}
-	}
+}
+}
 }
