@@ -4,7 +4,6 @@
  * _puts - prints a string, followed by a new line,
  * @str: pointer to the string to print
  * Return: void
- * @i: this is interger
  */
 
 void _puts(char *str)
