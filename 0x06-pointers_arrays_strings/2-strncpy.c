@@ -10,9 +10,10 @@
 char *_strncpy(char *dest, char *src, int n)
 
 {
-int i = 0;    //variale declaration
+int i;
 
-while (i < n && src[i] != '\0')   //entry point loop control
+i = 0;
+while (i < n && src[i] != '\0')
 {
 dest[i] = src[i];
 i++;
