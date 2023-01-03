@@ -5,16 +5,16 @@
  * Return: returns char
  */
 
+
 char *string_toupper(char *str)
 {
-int x = 0;
+int i;
 
-while (str[x] != '\0')
+for (i = 0; str[i] != '\0'; i++)
 {
-if (str[x] >= 'a' && str[x] <= 'z')
+if (str[i] >= 'a' && str[i] <= 'z')
 {
-str[x] = str[x] - 32;
-  x++;
+str[i] = str[i] - 32;
 }
 }
 
