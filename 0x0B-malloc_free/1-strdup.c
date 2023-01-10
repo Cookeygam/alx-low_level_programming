@@ -61,8 +61,8 @@ dst = (char *) malloc(size *sizeof(char));
 
 if (dst == 0)
 {
-  free(dst);
-return (NULL);
+	free(dst);
+	return (NULL);
 }
 _strcpy(dst, str);
 return (dst);
