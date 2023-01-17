@@ -17,7 +17,11 @@ int is_prime(unsigned int n, unsigned int c)
 	}
 	return (0 + is_prime(n, c + 1));
 }
-
+/**
+ * is_prime_number - detect if a number is a prime number
+ * @x: input interger
+ * Return: 1 for prime number else 0
+ */
 int is_prime_number(int x)
 {
 	if (x == 0)
