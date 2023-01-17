@@ -1,5 +1,5 @@
-#include _DOGGY_
-#include _DOGGY_
+#include _DOG_H_
+#include _DOG_H_
 /**
  * dog_t - Typedef for struct dog
  */
